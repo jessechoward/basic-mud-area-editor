@@ -1,0 +1,28 @@
+{
+  "name": "basic-mud-area-editor",
+  "version": "1.0.0",
+  "description": "Create and edit areas, rooms, NPCs, items for basic-mud",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "git+https://github.com/jessechoward/basic-mud-area-editor.git",
+  "keywords": [],
+  "author": "Jesse Howard <jessechoward@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jessechoward/basic-mud-area-editor/issues"
+  },
+  "homepage": "https://github.com/jessechoward/basic-mud-area-editor#readme",
+  "dependencies": {
+    "dot-env": "^0.0.1",
+    "express": "^4.16.4",
+    "jsonschema": "^1.2.4",
+    "morgan": "^1.9.1",
+    "pug": "^2.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^5.7.0",
+    "eslint-config-google": "^0.11.0"
+  }
+}
